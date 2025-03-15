@@ -17,7 +17,7 @@ export type UserListPropsType = {
 export const UserList: React.FC<UserListPropsType> = ({users}) => {
     return (
         <div id={'hw01-users'}>
-            <h2>User List:</h2>
+            <h2>User List List:</h2>
 
             <ul>
                 {users.map((user) => ( // ВСЕ ТОВАРЫ В СТРАНУ ПРИЕЗЖАЮТ В КОНТЕЙНЕРАХ, А В РЕАКТЕ...
