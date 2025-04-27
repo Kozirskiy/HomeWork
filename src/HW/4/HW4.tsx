@@ -27,7 +27,7 @@ export const HW4 = () => {
 
             <Button currentText={currentText} name={'save'} callBack={handleSave}/>
 
-            <h1 style={{marginTop: '50px'}}>СПИСОК ДЕЛ НА ДЕНЬ:</h1>
+            <h1 style={{marginTop: '50px'}}>СПИСОК ДЕЛ НА ДЕНЬ1:</h1>
 
             <ol id={'hw04-tasks'}>
                 {texts.map((el, index) => {
